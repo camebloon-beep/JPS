@@ -1209,6 +1209,38 @@ section {
 }
 
 @media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .service-card {
+        border-radius: var(--border-radius-sm);
+    }
+
+    .service-icon-banner {
+        height: 100px;
+    }
+
+    .service-svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .service-content {
+        padding: 15px;
+    }
+
+    .service-content h3 {
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
+
+    .service-content p {
+        font-size: 0.78rem;
+        line-height: 1.4;
+    }
+
     .nav-toggle {
         display: block;
         z-index: 1002;
